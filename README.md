@@ -1,0 +1,2 @@
+# nvim-haskell-config
+haskell
