@@ -13,7 +13,7 @@ function M.setup()
         { noremap = true, silent = true })
       vim.api.nvim_buf_set_keymap(buffer, 'n', '<leader>r', '<cmd>lua vim.lsp.buf.rename()<CR>',
         { noremap = true, silent = true })
-      vim.api.nvim_buf_set_keymap(buffer, 'n', '<leader>t', '<cmd>!lua %<CR>', { noremap = true, silent = true })
+      vim.api.nvim_buf_set_keymap(buffer, 'n', '<leader>t', '<cmd>!runghc %<CR>', { noremap = true, silent = true })
     end
     ,
   }
